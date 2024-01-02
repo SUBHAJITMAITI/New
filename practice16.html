@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .baba{
+      background-color: red;
+      }
+      .amit{
+        height: 15px;
+        width:160px ;
+      /* background-color: red; */
+      padding: 50px 0px 0px 0px;
+      animation: sliding 5s linear infinite ;
+      color: violet;
+      margin: auto;
+      font-size: 40px;
+      }
+      li{
+        display: inline;
+        color: white;
+        margin: 14px;
+        font-size: 30px;
+      }
+        body{
+            height: 100vh;
+            width: 100vw;
+            background-color:blue ;
+        }
+  img{
+    height: 300px;
+    width: 300px;
+    border: 2px solid purple;
+    border-radius: 70%;
+    /* margin: auto; */
+    animation: myrotate 7s linear infinite;
+    transition: width 7s linear infinite,height 7s linear infinite;
+  }
+  .subha{
+    height: 50vh;
+    width: 30vw;
+    margin: auto;
+  }
+  @keyframes myrotate{
+0%{
+    transform: rotate(0deg);
+    border: 6px dotted red;
+}
+30%{
+transform: rotate(180deg);
+border: 8px dotted yellow;
+}
+50%{
+    transform: rotate(0deg);
+    border: 10px solid pink;
+}
+70%{
+    transform: rotate(180deg);
+    border: 12px dotted aqua;
+}
+100%{
+    transform: rotate(360deg);
+    border: 14px dotted aqua;
+}
+  }
+  img:hover{
+ width:30px ;
+  }
+  img:hover{
+ height:30px ;
+  }
+@keyframes sliding{
+0%{
+transform:translate(0px) ;
+    }
+30%{
+    transform:translate(-350px) ;
+}
+60%{
+    transform:translate(0px)
+}
+80%{
+    transform:translate(50px) ;
+}
+100%{
+    transform:translate(0px) ;
+}
+}
+    </style>
+</head>
+<body>
+    <nav class="baba">
+            <ul>
+                <li>home</li>
+                <li>about</li>
+                <li>contact</li>
+            </ul>
+    </nav>
+    <div class="subha">
+        <img src="subha best pic wallpeper 4.jpg" alt="human pic">
+    </div>
+    <nav class="amit">
+     <pre>  i am a wed developer</pre>
+    </nav>
+</body>
+</html>

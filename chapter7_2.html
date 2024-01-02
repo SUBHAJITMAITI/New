@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media queries</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+.container{
+    height: 150vh;
+            /* width: 90vw; */
+            background-color: aqua;
+            
+ }
+.subha{
+height: 50vh;
+width:50vw;
+background-color: yellow;
+border: 2px solid black;
+float: left;
+}
+.laltu{
+height: 50vh;
+width:40vw;
+background-color: green;
+border: 2px solid black;
+float: right;
+}
+
+@media screen and (max-width: 800px){
+     .container{
+        background-color: rgb(0, 255, 34); 
+        border: 2px solid black;
+    }
+}
+@media screen and (max-width: 800px){
+     .subha{
+        background-color: red; 
+        border: 2px solid blue;
+    }
+}
+
+@media screen and (max-width: 800px){
+     .laltu{
+        background-color: blue; 
+        border: 2px solid yellow;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <nav class="container">
+        <div class="subha">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque quia,
+        </div><div class="laltu">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, non?
+        </div>
+    </nav>
+</header>
+</body>
+</html>

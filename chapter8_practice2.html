@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .laltu{
+        height: 100vh;
+        width: 100vw;
+       background-color: aqua;
+        }
+        img{
+            height: 400px;
+            width: 400px; 
+             transition-property: width;
+            transition-duration: 1s;
+            transition-timing-function: ease-in;
+            transition-delay: 1s; 
+            transition: width 1s ease-in-out 2s , height 3s ease-out 3s ;
+            border: 2px dashed greenyellow;
+        }
+        img:hover{
+         height: 5px;
+         width: 5px;
+         border: 2px dotted blue;
+        }
+        @media screen and (max-width:700px){
+        img{
+            border: 2px dashed red;
+        }
+        }
+    </style>
+</head>
+<body>
+    <div class="subha">
+    <div class="laltu"> 
+   <img src="subhajit wallpeper.jpg" alt="human pic">
+    </div>
+    </div>
+</body>
+</html>

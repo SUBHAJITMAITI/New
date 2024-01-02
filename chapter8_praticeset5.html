@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .takur{
+            display: flex;
+            flex-direction: row;
+        }
+        .box1{
+            animation:laltu 7s linear infinite ;
+        }
+        .box2{
+           
+           animation:laltu 10s linear infinite ;
+       }
+   #ma{
+    height: 444px;
+    width: 444px;
+  margin: 0px 150px 0px 0px;
+   border:2px solid red;
+   border-radius: 50%;
+  animation:subha 7s linear infinite;
+   }
+   #baba{
+    height: 200px;
+    width: 200px;
+    margin: 0px 150px 0px 0px;
+   border:2px solid red;
+   border-radius: 50%;
+  animation:khokan 1s linear infinite;
+   }
+   @keyframes subha{
+    0%{
+      transform:translate(0vw) ;
+    }
+    100%{
+    transform: translate(85vw);
+    }
+}
+@keyframes khokan{
+    0%{
+      transform:translate(0vw) ;
+    }
+    100%{
+    transform: translate(60vw);
+    }
+}
+
+    </style>
+</head>
+<body>
+    <nav class="takur">
+        <!-- unsplash source -->
+        <div class="box1"><img id="ma" src="subhajit wallpeper.jpg"  alt="human pic"></div>
+        <div class="box2"> <img id="baba" src="Untitled.png"  alt="human pic"></div>
+    </nav>
+</body>
+</html>

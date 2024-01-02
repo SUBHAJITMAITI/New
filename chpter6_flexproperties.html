@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>float</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        nav{
+            height: 150vh;
+            /* width: 90vw; */
+            background-color: aqua;
+            /* margin: auto; */
+            display: flex;
+            flex-direction:row;
+            /* flex-wrap: wrap-reverse; */
+            /* justify-content:center; */
+            align-items: center;
+            
+            align-content: center;
+        }
+.subha{
+height: 50px;
+width:150px;
+background-color: blue;
+border: 2px solid black;
+order: 4;
+align-self: flex-end;
+/* flex-shrink: 1; */
+flex-grow: 1;
+}
+.ratan{
+height:50px;
+width: 150px;
+background-color: red;
+border: 2px solid yellow;
+order: 1;
+/* align-self: flex-end; */
+/* flex-shrink: 1; */
+flex-grow: 1;
+}
+.laltu{
+height:50px;
+width: 150px;
+background-color: pink;
+border: 2px solid green;
+order: 2;
+/* flex-shrink: 1; */
+flex-grow: 1;
+}
+.kalyan{
+height: 50px;
+width: 150px;
+ background-color: blueviolet; 
+border: 2px solid violet;
+order: 3;
+flex-grow: 2;
+/* flex-shrink: 1; */
+align-self: flex-end;
+}
+    </style>
+</head>
+<body>
+    <nav>
+    <div class="subha">
+        box-1
+    </div>
+    <div class="ratan">
+        box-2
+    </div>
+    <div class="laltu">
+        box-3
+    </div>
+    <div class="kalyan">
+        box-4
+    </div>
+</nav>
+</body>
+</html>

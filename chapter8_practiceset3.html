@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            display: flex;
+            /* flex-direction: row; */
+            animation:amit 7s linear infinite ;
+        }
+   #ma{
+    height: 444px;
+    width: 444px;
+  margin: 0px 150px 0px 0px;
+   border:2px solid red;
+   border-radius: 50%;
+  animation:subha 7s linear infinite,amit 7s linear infinite ;
+   }
+   #baba{
+    height: 300px;
+    width: 300px;
+    margin: 0px 150px 0px 0px;
+   border:2px solid red;
+   border-radius: 50%;
+  animation:khokan 7s linear infinite,laltu  7s linear infinite ;
+   }
+   #dadu{
+    height: 200px;
+    width: 200px;
+    margin: 0px 0px 0px 0px;
+   border:2px solid red;
+   border-radius: 50%;
+  animation:sovan 7s linear infinite , dada 7s linear infinite;
+   }
+   /* @keyframes subha{
+   form{transform: rotate(0deg);}
+to{ transform: rotate(360deg);
+   border: 2px dashed aqua;}
+   } */
+   @keyframes subha{
+    0%{
+      transform: rotate(0deg);
+    }
+    50%{
+      transform: rotate(180deg);
+    }
+    100%{
+    transform: rotate(360deg);
+    }
+   }
+   @keyframes khokan{
+    0%{
+      transform: rotate(0deg);
+    }
+    50%{
+      transform: rotate(180deg);
+    }
+    100%{
+    transform: rotate(360deg);
+    }
+   }
+   @keyframes sovan {
+    0%{
+      transform: rotate(0deg);
+    }
+    50%{
+      transform: rotate(180deg);
+    }
+    100%{
+    transform: rotate(360deg);
+    }
+   }
+   @keyframes amit{
+    0%{
+      transform:translate(100vw) ;
+    }
+    50%{
+      transform: translate(50vw);
+    }
+    100%{
+    transform: translate(-100vw);
+    }
+   }
+   /* @keyframes laltu{
+    0%{
+      transform:translate(-100vw) ;
+    }
+    50%{
+      transform: translate(100vw);
+    }
+    100%{
+    transform:translate(50vw) ;
+    }
+   }
+   @keyframes dada{
+    0%{
+      transform:translate(50vw) ;
+    }
+    50%{
+      transform: translate(-100vw);
+    }
+    100%{
+    transform: translate(100vw);
+    }
+   }
+ */
+
+    </style>
+</head>
+<body>
+    <div>
+        <!-- unsplash source -->
+        <img id="ma" src="subhajit wallpeper.jpg"  alt="human pic">
+        <img id="baba" src="Untitled.png"  alt="human pic">
+        <img id="dadu" src="Untitled1.jpeg"  alt="human pic">
+    </div>
+</body>
+</html>

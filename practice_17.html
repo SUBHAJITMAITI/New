@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: blue;
+        }
+        div{
+            height: 45vh;
+            width: 50vw;
+            background-color: aqua;
+            border: 2px solid red;
+            /* transform: translate(30px,50px); */
+            /* transform: translatex(30px);
+            transform: translatey(44px); */
+            /* transform:skew(45deg) ; */
+          /* transform: skewX(45deg); */
+          /* transform: skewY(45deg); */
+          /* transform-origin:0 ;
+         /* transform: rotate(2.25turn);
+         transform: rotate(2.05turn); */
+         /* transform: rotatex(45deg);
+         transform: rotatey(2.2turn); */
+         /* transform: rotateZ(55deg); */
+         /* transform: scale(2); */
+         /* transform: scaleX(3);
+         transform: scaleY(4); */
+         /* transform: matrix(3,25,1,3,4,2 ); */ 
+         /* transition-property:width ;
+         transition-duration:3s ;
+         transition-timing-function: ease-in-out;
+         transition-delay: 1s; */
+          /* transition:width 1s linear 1s ; 
+        }
+        div:hover{
+            width: 34px;
+            height: 34px;*/
+
+        /* animation-name: mywidth;
+        animation-duration: 3s;
+        animation-timing-function: ease-in-out;
+        animation-direction:alternate ;
+        animation-delay: 1s;
+        animation-iteration-count: infinite; */
+        animation: mywidth 1s linear infinite 2s alternate , myheight 3s linear infinite 2s alternate ;
+        } 
+     @keyframes mywidth{
+      0%{ width:50vw ;
+     }
+      50%{ width: 80px;
+    }
+    100%{
+        width: 100px;
+    }
+     }
+     @keyframes myheight{
+      from{ 
+    height: 45vh; }
+      to{ 
+    height: 844px;}
+     }
+
+    </style>
+</head>
+<body>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam aspernatur assumenda cum quos corrupti impedit iure animi tempore temporibus, nisi magnam ad aperiam. Excepturi quia deleniti non harum! Alias, laboriosam.
+    </div>
+</body>
+</html>

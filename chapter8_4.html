@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+    .dadu{
+    height: 100vh;
+     width:100vw ;
+     background-color: red;
+        }
+    .subha{
+        height: 100px;
+        width: 900px;
+    background-color: blue;
+    color: aqua;
+    height: 300px;
+        animation-name: mywidth;
+        animation-duration: 5s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-delay: 1s;
+        animation-direction: alternate;
+    }
+    .amit{
+        height: 100px;
+        width: 900px;
+        background-color: violet;
+     color: aqua;
+    animation-name: myheight;
+        animation-duration: 2s;
+        animation-timing-function:ease-in;
+        animation-iteration-count: infinite;
+        animation-delay: 1s;
+        animation-direction: reverse; 
+    } 
+    @keyframes mywidth {
+     from{
+    width:  900px
+     }
+     to{
+       width: 90px;
+     }
+    }
+    @keyframes myheight {
+     from{
+    height:  100px;
+    width: 100vw;
+     }
+     to{
+       height: 900px;
+       width: 10vw;
+     }
+    }
+ </style>
+</head>
+<body>
+    <div class="dadu">
+  <div class="subha">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dolore dicta distinctio, id cupiditate soluta, nisi quisquam et eos maiores dolor quas adipisci.
+  </div>
+<div class="amit">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa aperiam consequuntur dolorem eaque, est, eos consectetur et doloremque unde obcaecati nostrum eum? Neque ab aspernatur sint quae, cum iusto quaerat molestias nulla. Non, soluta.
+</div>
+    </div>
+</body>
+</html>
